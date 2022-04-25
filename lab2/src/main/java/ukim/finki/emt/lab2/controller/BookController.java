@@ -9,7 +9,8 @@ import ukim.finki.emt.lab2.service.BookService;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://library-emt-react.herokuapp.com/")
 @RequestMapping({"/api/books"})
 public class BookController {
 
